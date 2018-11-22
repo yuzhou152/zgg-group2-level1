@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>zgg-group2</groupId>
+    <artifactId>zgg-group2-level1</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>group2-level1-web</artifactId>
+  <packaging>pom</packaging>
+  
+  	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <web.portal.pc>8091</web.portal.pc>
+        <web.portal.manage>8092</web.portal.manage>
+        <web.portal.serviceprovider>8093</web.portal.serviceprovider>
+        <web.rest>8094</web.rest>
+    </properties>
+    
+  <modules>
+  	<module>group2-level1-web-rest</module>
+  	<module>group2-level1-web-task</module>
+  </modules>
+</project>
